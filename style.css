@@ -233,3 +233,132 @@ button {
         flex-direction: column;
     }
 
+    .start {
+        flex-direction: column-reverse;
+    }
+    
+    .header__logo {
+        width: 141px;
+        height: 22px;
+    }
+    
+    .header__burger-menu {
+        display: block;
+    }
+    
+    .header {
+        padding-top: 29px;
+        padding-bottom: 59px;
+    }
+    
+    .header::before {
+        display: none;
+    }
+    
+    .start__image {
+        transform: none;
+    }
+    
+    .start__title {
+        font-size: 24px;
+        text-align: center;
+        width: 261px;
+    }
+    
+    .start__text {
+        font-size: 12px;
+        line-height: 180%;
+        text-align: center;
+        width: 250px;
+    }
+    
+    .start__button {
+        font-size: 12px;
+        width: 170px;
+        height: 44px;
+    }
+    
+    .start__items {
+        padding-top: 126px;
+        align-items: center;
+        gap: 22px;
+    }
+
+    .block__header {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .block__card {
+        display: flex;
+        gap: 55px;
+        padding: 26px 52px;
+        align-items: center;
+    }
+
+    .block__cards {
+        gap: 20px;
+    }
+
+    .block__description {
+        font-size: 14px;
+        line-height: 133%;
+        margin-top: 0px;
+    }
+
+    .block__img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .block__text {
+        font-size: 12px;
+        text-align: center;
+        line-height: 200%;
+        width: 306px;
+    }
+
+    .block__title {
+        font-size: 20px;
+        width: 263px;
+        text-align: center;
+        line-height: 140%;
+    }
+
+    .block__items {
+        gap: 20px;
+    }
+
+    .block {
+        padding-bottom: 60px;
+    }
+
+    .header::after {
+        width: 375px;
+        height: 968px;
+        top: -561px;
+        left: 0px;
+    }
+
+    .start__decor {
+        width: 340px;
+        height: 299px;
+        left: 51px;
+        top: -34px;
+    }
+
+    .start__decor-up {
+        width: 186px;
+        height: 67px;
+        font-size: 12px;
+        left: 84px;
+        top: 157px;
+        backdrop-filter: blur(20.019176483154297px);
+        background: rgba(196, 196, 196, 0.1);
+    }
+
+    .decor-up__text {
+        margin: 15px 25px;
+        width: 140px;
+    }
