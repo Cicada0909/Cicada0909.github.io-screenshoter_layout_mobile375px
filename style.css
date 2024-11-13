@@ -217,7 +217,7 @@ button {
     line-height: 160%;
 }
 
-.header::after {
+.start::after {
     content: "";
     background-image: url(./assets/DecorativeLine.png);
     width: 1920px;
@@ -228,6 +228,7 @@ button {
     z-index: -1;
     /* animation: move 3s infinite; */
 }
+
 
 .header::before {
     content: "";
