@@ -445,7 +445,7 @@ button {
         padding-bottom: 60px;
     }
 
-    .header::after {
+    .start::after {
         width: 375px;
         height: 968px;
         top: -561px;
@@ -481,7 +481,8 @@ button {
         margin: 15px 25px;
         width: 140px;
     }
-
+    
     .header::after {
         display: none;
     }
+}
