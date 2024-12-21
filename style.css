@@ -26,6 +26,11 @@ button {
     padding: 0 20px;
 }
 
+.wrapper {
+    overflow: hidden;
+    position: relative;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -108,7 +113,7 @@ button {
     color: #fff;
     text-align: center;
     transition: .3s;
-    animation: glow 2s infinite;
+    /* animation: glow 2s infinite; */
 }
 
 .start__button:hover {
@@ -118,6 +123,13 @@ button {
 
 .start__button:active {
     transform: scale(0.95);
+}
+
+.start__decor-line {
+    position: absolute;
+    top: 98px;
+    left: 0px;
+    z-index: -1;
 }
 
 .block {
@@ -220,7 +232,7 @@ button {
     line-height: 160%;
 }
 
-.start::after {
+/* .start::after {
     content: "";
     background-image: url(./assets/DecorativeLine.png);
     width: 1920px;
@@ -230,7 +242,7 @@ button {
     position: absolute;
     z-index: -1;
     /* animation: move 3s infinite; */
-}
+/* } */ 
 
 
 .header::before {
@@ -487,5 +499,9 @@ button {
     
     .header::after {
         display: none;
+    }
+    
+    .start__decor-line {
+        top: -562px;
     }
 }
