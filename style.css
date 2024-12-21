@@ -177,8 +177,11 @@ button {
     transition: 0.3s;
 }
 
+
 .block__card:hover {
     transform: scale(1.1);
+    background-color: #7421B0;
+    color: #fff;
 }
 
 .block__card--extra {
